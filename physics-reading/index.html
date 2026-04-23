@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PhysicsQuest - Read Physics</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>PhysicsQuest</h1>
+    <nav>
+      <button id="nav-read" class="nav-btn active">Reading</button>
+      <button id="nav-quiz" class="nav-btn">Quiz</button>
+      <button id="nav-progress" class="nav-btn">Progress</button>
+    </nav>
+  </header>
+
+  <main id="app">
+    <section id="reading-section" class="section active">
+      <div id="level-selector" class="level-selector">
+        <label for="level">Your Level:</label>
+        <select id="level">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+        </select>
+      </div>
+
+      <h3>Available Readings</h3>
+      <div id="excerpt-list" class="excerpt-list"></div>
+
+      <h3>Reading</h3>
+      <div id="excerpt-container" class="excerpt-container">
+        <div class="excerpt-header">
+          <h2 id="excerpt-title"></h2>
+          <span id="excerpt-source" class="source-badge"></span>
+        </div>
+        <p id="excerpt-chapter" class="chapter-ref"></p>
+        <div id="excerpt-content" class="excerpt-content"></div>
+      </div>
+    </section>
+
+    <section id="progress-section" class="section hidden">
+      <h2>Your Reading Progress</h2>
+      <div id="progress-list" class="progress-list"></div>
+    </section>
+
+    <section id="quiz-section" class="section hidden">
+      <div id="quiz-container" class="quiz-container">
+        <div class="quiz-start-screen">
+          <h2>Quiz de Física</h2>
+          <p>Teste seus conhecimentos sobre as lições de Feynman!</p>
+          <p>Você precisa de 60% para passar para a próxima lição.</p>
+          <button id="start-quiz-btn" class="quiz-btn">Começar Quiz</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="success-section" class="section hidden">
+      <div class="success-container">
+        <div class="success-icon">🎉</div>
+        <h2>Parabéns!</h2>
+        <p>Você completou todos os quizzes com sucesso!</p>
+        <button id="restart-quiz" class="quiz-btn">Recomeçar Quiz</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

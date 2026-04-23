@@ -1,0 +1,12 @@
+# Browser/Local
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.tmp
+
+# Log files
+*.log

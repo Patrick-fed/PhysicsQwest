@@ -1,0 +1,45 @@
+{
+  "sources": [
+    {
+      "id": "feynman-vol1",
+      "name": "The Feynman Lectures on Physics",
+      "author": "Richard P. Feynman",
+      "year": 1964,
+      "volumes": 3
+    }
+  ],
+  "excerpts": [
+    {
+      "id": "ex-001",
+      "title": "Atoms in Motion",
+      "source": "feynman-vol1",
+      "chapter": "Chapter 1: Atoms in Motion",
+      "level": "beginner",
+      "content": "All things are made of atoms — little particles that move around in perpetual motion, attracting each other when they are a little distance apart, but repelling each other when they are pressed together. In that one sentence, there is an enormous amount of information about the world, but it takes a great many years to learn that all this is contained in the statement.\n\nIf, in some cataclysm, all of scientific knowledge were to be destroyed, and only one sentence passed on to the next generation of creatures, what statement would contain the most information in the fewest words? I believe it is the atomic hypothesis (or call it the atomic fact, if you wish) that all things are made of atoms — little particles that move around in perpetual motion, attracting each other when they are a little distance apart, but repelling each other when they are pressed together.\n\nThe atoms come many times closer together than the 1/1000th part of the diameter of the thing. So we have a great paste of these atomic balls. The atoms are always 'jiggling' and trying to get to us, so we feel it as roughness; it is not smooth as far as the atoms are concerned."
+    },
+    {
+      "id": "ex-002",
+      "title": "Basic Physics",
+      "source": "feynman-vol1",
+      "chapter": "Chapter 2: Basic Physics",
+      "level": "beginner",
+      "content": "Physics is the most fundamental and all-inclusive of the sciences, and has had a profound effect on all scientific development. In fact, physics is the present day equivalent of what used to be called natural philosophy, from which most of our modern sciences arose.\n\nStudents of many fields find themselves studying physics because of the basic role it plays in all phenomena. There are fields like engineering, where a knowledge of physics before will enable an ability to see new things.\n\nPerhaps the most exciting, the most pitiably ridiculous, and the most profound discovery of all science is the way the world works - and we call that knowledge 'physics'. A poet once said, 'The whole world is in a glass of wine.' He probably never tried to work it out, but the ingredients are there, just the same."
+    },
+    {
+      "id": "ex-003",
+      "title": "The Relation of Physics to Other Sciences",
+      "source": "feynman-vol1",
+      "chapter": "Chapter 3: The Relation of Physics to Other Sciences",
+      "level": "intermediate",
+      "content": "Physics is the foundation of every other science and may be applied to many different problems in other fields. But we must not suppose that physics is the only field, or that every problem can be approached through a study of physics.\n\nChemistry deals with the combinations of atoms, and so does most of the material world. Chemical analysis tells us which atoms are present in the composition of the earth, how they are arranged.\n\nBiology is more complicated than chemistry. The living thing is made of atoms, which are complicated and extremely complicated organizations. The processes in living creatures are performed by an enormously complicated ensemble of atoms."
+    },
+    {
+      "id": "ex-004",
+      "title": "Conservation of Energy",
+      "source": "feynman-vol1",
+      "chapter": "Chapter 4: Conservation of Energy",
+      "level": "intermediate",
+      "content": "There is a certain quantity which we call energy. It is not a created thing; it is a number. When something happens, the number changes, but if we keep track of all the forms, the number will stay the same.\n\nEnergy has many different forms, and there is a formula for each one. There is gravitational potential energy, kinetic energy, thermal energy, elastic energy, electrical energy, chemical energy, radiant energy, nuclear energy, mass energy.\n\nLet us consider a simple example: a ball is dropped from a height. As it falls, its potential energy is converted to kinetic energy. When it hits the ground, it stops, and all the energy is transferred to the ground and the ball, making them slightly hotter."
+    }
+  ]
+}
